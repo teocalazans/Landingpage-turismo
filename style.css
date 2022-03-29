@@ -20,7 +20,7 @@ header .list-items {
 }
 
 .list-items li a {
-    color: antiquewhite;
+    color: #fff;
 }
 
 header .menu {
@@ -38,6 +38,11 @@ ul li a {
     text-decoration: none;
 }
 
+div img {
+    display: block;
+    width: 100%;
+}
+
 .flex-container {
     display: flex;
     max-width: 992px;
@@ -46,8 +51,59 @@ ul li a {
 
 }
 
-.apresentação {
+.apresentacao {
     height: 100vh;
     align-items: center;
     justify-content: space-between;
+}
+
+.apresentacao .texto-apresentacao {
+    min-height: 280px;
+}
+
+.texto-apresentacao h1 {
+    color:#6a5acd;
+    font-size: 48px;
+    margin: 10px;
+}
+.texto-apresentacao a{
+    background-color: #6a5acd;
+    color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    width: 220px;
+    display: block;
+    text-decoration: none;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#quem-somos {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#quem-somos h2 {
+    font-size: 32px;
+    color: #6a5acd;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#quem-somos h2::before {
+    content: "";
+    height: 50px;
+    width: 5px;
+    margin-right: 5px;
+    background-color: #6a5acd;
+    position: relative;
+}
+
+#quem-somos p {
+    margin-bottom: 10px;
+    width: 90%;
+    text-align: justify;
 }
