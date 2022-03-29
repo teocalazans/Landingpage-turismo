@@ -69,7 +69,7 @@ div img {
 .texto-apresentacao a{
     background-color: #6a5acd;
     color: #fff;
-    border-radius: 20px;
+    border-radius: 30px;
     text-align: center;
     width: 220px;
     display: block;
@@ -106,4 +106,64 @@ div img {
     margin-bottom: 10px;
     width: 90%;
     text-align: justify;
+}
+
+#quem-somos img {
+    width: 500px;
+}
+
+.container-externo {
+    background-color: #6a5acd;
+    width: 100%;
+}
+
+#servicos {
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.list-servicos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-servicos .item-servicos {
+    text-align: center;
+}
+
+#servicos h2 {
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.item-servicos p {
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 15px;
+    
+}
+
+.list-servicos .item-servicos a { 
+    background-color: #fff;
+    color: #000;
+    border-radius: 30px;
+    text-align: center;
+    width: 180px;
+    display: block;
+    text-decoration: none;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 20px;
+    padding: 5px 10px;
+    font-weight: 700;
+}
+
+.item-servicos img {
+    width: 80%;
+    margin: auto;
 }
